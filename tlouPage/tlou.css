@@ -1,0 +1,90 @@
+@import url(../components/css/styles.css);
+@import url(../components/css/root&Utilites.css);
+
+.game-banner{
+    height: 45rem;
+    width: 100%;
+    position: relative;
+    background-color: var(--back-ground-dark);
+}
+
+main{
+    background-color: var(--back-ground-dark);
+}
+
+.add-box {
+    padding-left: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    color: var(--main-white);
+    background-color: var(--dark-gray);
+    width: 32rem;
+    height: 16rem;
+    top: calc(100%);
+    left: 10%;
+}
+
+.game-desc{
+    width: 70%;
+    height: 40rem;
+    background-color: var(--dark-gray);
+    color: var(--main-white);
+    border-radius: 6px;
+}
+
+.about-game{
+    font-family: 'Roboto';
+    color: var(--main-white);
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-left: 45rem;
+}
+
+.additional-details{
+    color: var(--main-white);
+    background-color: var(--dark-gray);
+    width: 24rem;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    height: 14rem;
+}
+
+.screen-shot-sec{
+    color: var(--main-white);
+    display: flex;
+    justify-content: center;
+    background: url(../components/pictures/screenShots.png);
+    object-fit: cover;
+    align-items: center;
+    font-size: 3rem;
+    padding: 1rem;
+    width: 24rem;
+    height: 20rem;
+    cursor: pointer;
+}
+
+.add-to-cart-btn{
+    width: 22rem;
+    background-color: var(--ps-blue);
+    height: 2.6rem;
+}
+
+.plus-btn{
+    margin-top: .3rem;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.copy-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem;
+    color: var(--main-white);
+}
+
