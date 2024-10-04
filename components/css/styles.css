@@ -1,0 +1,461 @@
+@import url(./bootstrap.css);
+@import url(./animation.css);
+@import url(./root&Utilites.css);
+
+li{
+    list-style: none;
+}
+
+.logo{
+    width: 50px;
+}
+
+.logo img{
+    width:100%;
+    height:100%;
+    cursor: pointer;
+}
+
+.sign-in{
+    display: flex;
+    padding-left: 24rem;
+}
+
+.sign-in-btn:hover{
+    background-color: var(--ps-blue);
+    color: var(--main-white);
+}
+
+
+.sign-in-btn{
+    font-family: Roboto;
+    color: var(--btn-txt-white);
+    background-color: var(--dark-gray);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    width: 6.2rem;
+    height: 2.5rem;
+    transition: 0.7s;
+}
+
+.storeLogo-name{
+    margin-left: 5rem;
+    padding-right: 20rem;
+    width: 100%;
+}
+
+.storeLogo{
+    width: 55px;
+    height: 100%;
+}
+
+.main-list-nav{
+    justify-self: center;
+}
+
+.list-txt-nav{
+    color: var(--ps-black);
+    font-family: 'Roboto';
+    padding-top: .2rem;
+    font-weight: 500;
+}
+
+li:hover{
+    color: var(--ps-blue);
+    cursor: pointer;
+    transition: .7s;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    background-image: url(../pictures/Banner.webp);
+    position:relative;
+    width: 100%;
+    height: 45rem;
+}
+
+.banner-ps-plus{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30rem;
+}
+
+.banner-ps{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30rem;
+}
+
+.plusLogo{
+    padding-top: 3rem;
+    position: absolute;
+    width: 25rem;
+    left: 16%;
+}
+
+.skater{
+    position: absolute;
+    width: 36rem;
+    left: 45%;
+}
+
+.nav-color{
+    background-color: var(--main-white);
+}
+
+.mbapae-banner{
+    width: 45rem;
+    height: 45rem;
+    position: absolute;
+    top: 0%;
+    left: 45%;
+}
+
+.fifa-logo{
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.pre-order-btn{
+    background-color: var(--ps-blue);
+    color: var(--main-white);
+    border-radius: 8px;
+    width: 170px;
+    height: 59px;
+    border-radius: 1.6rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.pre-order-btn:hover{
+    background-color: var(--dark-gray);
+    color: var(--main-white);
+    box-shadow: 0px 2px 8px var(--ps-blue);
+    transition: .8s;
+}
+
+.name-desc{
+    background-color: #F5F5F5;
+    justify-content: center;
+    width: 100%;
+    height: 13.5rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.top-games-item{
+    width: 18rem;
+    height: 18rem;
+    border-radius: .6rem;
+}
+
+.top-games-item:hover {
+    border-radius: 0rem;
+    box-shadow: 0px 8px 12px var(--ps-black);
+    transition: 0.6s;
+}
+
+.new-games-item{
+    width: 10rem;
+    border-radius: .6rem;
+}
+
+.new-games-item:hover {
+    transition: .5s;
+    border-radius: 0rem;
+    box-shadow: 0px 6px 8px var(--ps-black);
+}
+
+.title{
+    padding-left: 6rem;
+    font-size: 1.6rem;
+    font-family: 'arial';
+}
+
+.tag-items{
+    width: 18rem;
+    border-radius: .6rem;
+}
+
+.tag-items:hover {
+    transition: .7s;
+    border-radius: 0rem;
+    box-shadow: 0px 8px 16px var(--ps-blue);
+}
+
+.end-blue{
+    width:100%;
+    height: 30rem;
+    background-color: var(--ps-blue);
+}
+
+.data-parent{
+    padding-top: 4rem;
+    color: var(--main-white);
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight:700;
+    gap: 16rem;
+}
+
+.search-modal{
+    display: none;
+    justify-content: end;
+    height: 100vh;
+    width: 100vw;
+    background-color: #2121217b;
+    position: absolute;
+    top: 0%;
+    left: -1.2%;   
+    transition: all 1.6s ease;
+    justify-content: center;
+}
+
+.search-modal-items{
+    display:flex;
+    justify-content: center;
+    width: 40rem;
+    height: 4rem;
+    border-radius: 4rem;
+    position: absolute;
+    font-size: 22px;
+    font-family: arial;
+    transition: all 1.6s ease;
+}
+
+.modal-mag-color{
+    color: var(--main-white);
+    width: 4rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--ps-black);
+    background-color: var(--ps-blue);
+    border-radius: 0;
+}
+
+.modal-ps-btn-color{
+    font-size: 1rem;
+    color: var(--main-white);
+    background-color: var(--main-white);
+    border: 1px solid var(--ps-black);
+    border-radius: 0;
+    background-color: var(--ps-blue);
+}
+
+.modal-ps-btn-color:hover{
+    background-color: var(--ps-blue);
+    transition: .3s;
+}
+
+.search{
+    border: 1px solid var(--ps-black);
+    border-radius: 0;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 5px var(--dark-gray);
+border-radius: 2px;
+}
+  
+::-webkit-scrollbar-thumb {
+background: var(--ps-blue);
+border-radius: 8px;
+}
+
+#scroll {
+    z-index: 1;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--ps-blue);
+    box-shadow:var(--back-ground-dark) 1px;
+    position: fixed;
+  }
+
+@media screen and (min-width:1440px){}
+@media screen and (max-width:1440px){}
+@media screen and (max-width:1200px){}
+@media screen and (max-width:768px){
+    
+}
+@media screen and (max-width:576px){
+
+    .sign-in{
+        padding-left: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar-one{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .navbar-top{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 1rem;
+        margin-right: 1rem;
+    }
+
+    .drop-down-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .logo{
+        margin: 0;
+        margin-left: 0;
+    }
+
+    .sign-in-btn{
+        width: 4.2rem;
+        height: 2rem;
+        font-size: .8rem;
+        transition: 0.7s;
+    }
+
+    .lower-part{
+        display:flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 1rem;
+        margin-right: 1rem;
+    }
+
+    .storeLogo-name{
+        margin-left: 2rem;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .storeLogo{
+        width: 55px;
+    }
+
+    .mbapae-banner{
+        width: 30rem;
+        height: 30rem;
+        position: absolute;
+        top: 0%;
+        left: 12%;
+    }
+    
+    .fifa-logo{
+        width: 24rem;
+        height: 24rem;
+        position: absolute;
+        top: 50%;
+        left: 20%;
+    }
+
+    .new-game-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .coming-soon-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .new-games-item{
+        width: 10rem;
+        border-radius: .6rem;
+    }
+
+    .dec-ps-plus{
+        padding-bottom: .5rem;
+        font-size: .8rem;
+    }
+    .banner-ps-plus{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .plusLogo{
+        padding-top: 4rem;
+        position: absolute;
+        width: 15rem;
+        left: 10%;
+    }
+    
+    .skater{
+        padding-top: 4rem;
+        position: absolute;
+        width: 25rem;
+        left: 30%;
+    }
+
+    .name-desc{
+        gap: 0rem;
+    }
+
+    .pre-order-btn{
+        width: 8rem;
+        height: 2.5rem;
+    }
+
+    .end-blue{
+        width:100%;
+        height: 30rem;
+        background-color: var(--ps-blue);
+    }
+    
+    .data-parent{
+        padding-top: 3rem;
+        color: var(--main-white);
+        font-size: 1rem;
+        font-family: sans-serif;
+        font-weight:700;
+        gap: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search-modal{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 45rem;
+        top: 90%;
+        right: -20%;
+    }
+    
+    .search-modal-items{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4rem;
+        position: absolute;
+        font-size: 22px;
+        font-family: arial;
+        transition: all 1.6s ease;
+    }
+}
+@media screen and (max-width:375px){}

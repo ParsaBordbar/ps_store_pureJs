@@ -1,0 +1,24 @@
+/* root */
+:root{
+    --main-white: #F5F5F5;
+    --ps-blue: rgba(0, 104, 189, 1);
+    --ps-black: rgba(54, 54, 54, 1);
+    --txt-gray: rgba(117, 117, 117, 1);
+    --txt-black: rgba(30, 30, 30, 1);
+    --btn-txt-white: rgba(245, 245, 245, 1);
+    --dark-gray: #363636;
+    --back-ground-dark: #292626;
+}
+
+/* util */
+.ps-gray{
+    background-color: var(--ps-black)
+}
+
+.nav1-txt-color{
+    color: var(--txt-gray);
+}
+
+body{
+    background-color: var(--main-white);
+}
