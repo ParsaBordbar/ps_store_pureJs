@@ -1,0 +1,228 @@
+@import url(../components/css/styles.css);
+@import url(../components/css/root&Utilites.css);
+
+.game-banner{
+    height: 45rem;
+    width: 100%;
+    background-color: var(--back-ground-dark);
+}
+
+main{
+    background-color: var(--back-ground-dark);
+}
+
+.add-box {
+    padding-left: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    color: var(--main-white);
+    background-color: var(--dark-gray);
+    width: 32rem;
+    height: 16rem;
+    top: calc(100%);
+    left: 10%;
+}
+
+.game-desc{
+    width: 70%;
+    height: 40rem;
+    background-color: var(--dark-gray);
+    color: var(--main-white);
+    border-radius: 6px;
+}
+
+.about-game{
+    font-family: 'Roboto';
+    color: var(--main-white);
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-left: 45rem;
+}
+
+.additional-details{
+    color: var(--main-white);
+    background-color: var(--dark-gray);
+    width: 24rem;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    height: 14rem;
+}
+
+.screen-shot-sec{
+    color: var(--main-white);
+    display: flex;
+    justify-content: center;
+    background: url(../components/pictures/screenShots.png);
+    object-fit: cover;
+    align-items: center;
+    font-size: 3rem;
+    padding: 1rem;
+    width: 24rem;
+    height: 20rem;
+    cursor: pointer;
+}
+
+.add-to-cart-btn{
+    width: 22rem;
+    background-color: var(--ps-blue);
+    height: 2.6rem;
+}
+
+.plus-btn{
+    margin-top: .3rem;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.copy-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem;
+    color: var(--main-white);
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+#scroll {
+    z-index: 1;
+    height: 5px;
+    border-radius: 8px;
+    background-color: var(--ps-blue);
+    position: fixed;
+  }
+
+.screen-shot-btn{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--main-white);
+}
+
+.modal-parent{
+    display: none;
+    display: fe;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: var(--dark-gray);
+    position: absolute;
+    transition: all 1.6s ease;
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    left: 12%;
+    align-self: center;
+    align-items: center;
+    position: absolute;
+}
+
+.slideshow-container {
+    width: 100%;
+    position: relative;
+}
+  
+.mySlides {
+    display: none;
+}
+  
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+  
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+  
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+  
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: var(--ps-blue);
+}
+  
+.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: var(--dark-gray);
+    color: var(--main-white);
+    cursor: pointer;
+    padding: 15px;
+    border: 1px solid var(--back-ground-dark);
+    border-radius: 10px;
+  }
+  
+#myBtn:hover {
+    background-color: var(--ps-blue);
+}
+
+@keyframes fade {
+    from {opacity: .5}
+    to {opacity: 1}
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cart.css">
+    <link rel="stylesheet" href="../../components/css/styles.css">
+    <script defer src="./cart.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="container">
+        <nav class="navbar-one navbar d-flex flex-column nav-color">
+            <div class="navbar-top d-flex flex-row mt-2">
+                <div class="logo ms-4">
+                    <img class="logo-size" src="../../components/pictures/navy-playstation-png-logo-5.png">
+                </div>
+                <ul class="drop-down-list d-flex gap-5 mt-3">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav1-txt-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span>Games</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown nav1-txt-color">
+                        <a class="nav-link dropdown-toggle nav1-txt-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span>Hardware</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown nav1-txt-color">
+                        <a class="nav-link dropdown-toggle nav1-txt-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span>Services</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown nav1-txt-color">
+                        <a class="nav-link dropdown-toggle nav1-txt-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span>News</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown nav1-txt-color">
+                        <a class="nav-link dropdown-toggle nav1-txt-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span>Support</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown nav1-txt-color">
+                        <a class="nav-link dropdown-toggle nav1-txt-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span>Shop</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        </ul>
+                    </li>
+              </ul>
+    
+                <div class="sign-in d-flex">
+                    
+                    <button class="sign-in-btn btn mt-2"> Sign-In</button>
+
+                    <button class="search-btn btn" id="searchBtn"><img src="../../components/pictures/Search.png"></button>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar d-flex flex-row nav-color">
+            <div class="lower-part d-flex flex-row">
+                <div class="storeLogo-name d-flex flex-row">
+                    <img class="storeLogo" src="../../components/pictures/playstation-store-logo-freelogovectors.net_.png" alt="">
+                    <h4 class="mt-4">PlayStation  Store</h4>
+                </div>
+                <ul class="main-list-nav d-flex gap-4 pt-4 justify-content-center list-txt-nav">
+                    <li><span> Latest </span></li>
+                    <li><span> Collections</span></li>
+                    <li><span> Deals</span></li>
+                    <li><span> PS5 </span></li>
+                    <li><span> Subscriptions</span></li>
+                    <li><span> Browse </span></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="shopping-cart container mt-5" id="cartDiv">
+        <div class="details">
+            <h1>You're Cart </h1>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+@import url(../../components/css/root&Utilites.css);
+.make-it-yellow{
+    color: yellow;
+}
+
+
+.main-content{
+    margin-top: 2rem;
+    padding: 2.4rem 4rem;
+    width: 80rem;
+    height: 25rem;
+    background-color: var(--dark-gray);
+    color: var(--main-white);
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    gap: 1.6rem;
+}
+
+.item-image{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.make-it-blue{
+    color: var(--ps-blue);
+}
+
+.make-it-black{
+    color: var(--main-white);
+}
+
+.remove-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.6rem;
+    height: 2.6rem;
+    font-size: 2.4rem;
+    font-weight: 900;
+    font-family: 'Roboto';
+    border-radius: 50%;
+    border:none;
+    background-color: var(--ps-blue);
+    color: var(--main-white);
+    margin-top: 6rem;
+}
+
+.crash-him-self{
+    display: flex;
+    align-self: flex-end;
+    width: 30rem;
+    height: inherit;
+}
+
+.crash-him-self:hover{
+    filter: hue-rotate(180deg)
+}
+
+.crash-left-eye{
+    width: 3rem;
+    position: absolute;
+    top: 54.6%;
+    left: 23%;
+    border-radius: 100%;
+}
+
+.crash-right-eye{
+    width: 2rem;
+    position: absolute;
+    top: 55.6%;
+    left: 27.7%;
+    border-radius: 50%;
+}
+
+.bubble-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: #fff;
+    border-radius: 100%;
+    font-size: 8rem;
+    color: var(--dark-gray);
+}
